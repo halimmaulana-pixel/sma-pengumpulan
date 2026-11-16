@@ -42,12 +42,7 @@ Catatan: temuan tanpa bukti di data sendiri tidak dinilai. Kalau satu bagian lap
 
 ## Tenggat
 
-| Tugas | Tenggat | Bentuk |
-|---|---|---|
-| Tugas 1: pilih platform dan topik | Pertemuan 8 | Isi formulir, tahap 1 |
-| Data terkumpul dan collection log | Pertemuan 10 | Isi formulir, tahap 2 |
-| Data bersih dan temuan awal | Pertemuan 12 | Isi formulir, tahap 3 |
-| Laporan lengkap dan video | Pertemuan 14 | Isi formulir, tahap 4 |
+Tugas dikumpulkan paling lambat **27 November 2026, pukul 20.00 waktu setempat**, dalam satu kali pengiriman (pilih tahap "Tugas mandiri lengkap").
 
 ---
 
