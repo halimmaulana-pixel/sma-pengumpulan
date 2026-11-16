@@ -1,23 +1,19 @@
-name: "Pengumpulan Tugas 1 (Social Media Analytics)"
-description: "Kumpulkan Tugas 1: Satu Medsos, Banyak Temuan. Tenggat 27 November 2026, pukul 20.00 waktu setempat."
-title: "[Tugas 1] NIM - Nama Lengkap"
+name: "Pengumpulan Tugas 1"
+description: "Tugas 1: Satu Medsos, Banyak Temuan. Tenggat 27 November 2026 pukul 20.00."
+title: "[Tugas 1] NIM - Nama"
 labels: ["tugas-1", "pengumpulan"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## Tugas 1: Satu Medsos, Banyak Temuan
+        **Tugas 1: Satu Medsos, Banyak Temuan**
         Pilih satu media sosial yang datanya paling mudah kamu ambil, tentukan satu topik yang kamu peduli, lalu cari temuan sebanyak-banyaknya beserta buktinya. Nilai mengikuti temuan yang bisa dibuktikan, bukan panjang tulisan.
 
         **Tenggat: 27 November 2026, pukul 20.00 waktu setempat.**
-
-        **Cara melampirkan:** tarik berkas (data, log, laporan, rekaman) langsung ke kolom isian di bawah, atau cukup tempel tautannya.
-
-        **Catatan:** repositori ini publik. Hindari data pribadi sensitif di luar yang diminta form ini.
   - type: input
     id: nama
     attributes:
-      label: Nama Lengkap
+      label: Nama
       placeholder: "Contoh: Budi Santoso"
     validations:
       required: true
@@ -35,41 +31,11 @@ body:
       placeholder: "Contoh: TI-3A"
     validations:
       required: true
-  - type: input
-    id: platform
-    attributes:
-      label: Platform yang dipilih
-      placeholder: "Contoh: Reddit, Bluesky, YouTube, TikTok"
-    validations:
-      required: true
-  - type: input
-    id: topik
-    attributes:
-      label: Topik atau tagar yang diamati
-      placeholder: "Contoh: kampanye kopi bubuk UMKM di TikTok"
-    validations:
-      required: true
-  - type: input
-    id: tautan_data
-    attributes:
-      label: Tautan data (repositori pribadi atau Google Drive)
-      description: "Kalau Google Drive, pastikan aksesnya 'siapa pun dengan tautan bisa lihat'."
-      placeholder: "https://github.com/namamu/sma-tugas-1-nim"
-    validations:
-      required: true
-  - type: input
-    id: checksum
-    attributes:
-      label: Checksum SHA-256 berkas data utama
-      description: "Perintah di Termux/Linux: sha256sum data.csv"
-      placeholder: "Contoh: 64 karakter hex"
-    validations:
-      required: true
   - type: textarea
     id: temuan
     attributes:
-      label: Temuan (3 sampai 5, satu baris satu temuan)
-      description: "Tulis temuannya dengan angkanya. Contoh: komentar paling ramai pukul 23.00-01.00 (627 dari 1.204 baris, 52%)."
+      label: Temuan
+      description: "Tulis 3 sampai 5 temuan beserta angkanya. Satu baris satu temuan."
       placeholder: |
         1. Jam paling ramai ...
         2. Akun paling sering muncul ...
@@ -77,20 +43,18 @@ body:
     validations:
       required: true
   - type: input
-    id: rekaman
+    id: pdf
     attributes:
-      label: Tautan rekaman penjelasan 3 menit
-      description: "Boleh unggahan YouTube, Drive, atau tautan berkas di tempat data disimpan."
+      label: PDF laporan
+      description: "Tempel tautan PDF (Google Drive, GitHub, atau sejenisnya). Setelah Issue dibuat kamu juga bisa tarik berkas PDF langsung ke kolom komentar."
+      placeholder: "https://drive.google.com/..."
     validations:
-      required: false
+      required: true
   - type: checkboxes
     id: pernyataan
     attributes:
       label: Pernyataan
       options:
-        - label: Data dikumpulkan sendiri lewat jalur yang sah (API resmi atau halaman publik)
+        - label: Data dikumpulkan sendiri dan temuan bisa dibuktikan dari data tersebut
           required: true
-        - label: Berkas mentah tidak diubah, hasil olahan ada di berkas lain
-          required: true
-        - label: Tidak ada data pribadi orang lain (grup tertutup, chat pribadi) di dalam berkas
-          required: true
+</content>
