@@ -1,0 +1,92 @@
+name: Pengumpulan Tugas
+description: Formulir pengumpulan tugas Social Media Analytics
+title: "[Tugas {tugas}] {nama} ({nim})"
+labels: ["tugas"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Isi semua kolom. Pastikan repositori datamu bisa dibuka oleh dosen.
+        Simpan nomor Issue ini sebagai bukti pengumpulan.
+  - type: input
+    id: nama
+    attributes:
+      label: Nama lengkap
+      placeholder: "contoh: Siti Aminah"
+    validations:
+      required: true
+  - type: input
+    id: nim
+    attributes:
+      label: NIM
+      placeholder: "contoh: 1234567890"
+    validations:
+      required: true
+  - type: input
+    id: kelas
+    attributes:
+      label: Kelas
+      placeholder: "contoh: TI-3A"
+    validations:
+      required: false
+  - type: dropdown
+    id: tugas
+    attributes:
+      label: Tugas yang dikumpulkan
+      options:
+        - Tugas 1 tahap 1: platform dan topik
+        - Tugas 1 tahap 2: data dan collection log
+        - Tugas 1 tahap 3: data bersih dan temuan awal
+        - Tugas 1 tahap 4: laporan lengkap dan video
+        - Tugas mandiri lengkap
+        - Praktikum Bluesky
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Tautan repositori berisi data dan laporan
+      description: Repositori GitHub milikmu. Kalau private, undang akun dosen sebagai collaborator.
+      placeholder: "https://github.com/namamu/sma-tugas-1-nim"
+    validations:
+      required: true
+  - type: input
+    id: checksum
+    attributes:
+      label: Checksum SHA-256 berkas data utama
+      description: Perintah: sha256sum data.csv
+      placeholder: "contoh: 64 karakter hex"
+    validations:
+      required: true
+  - type: textarea
+    id: ringkasan
+    attributes:
+      label: Ringkasan temuan
+      description: Tulis 3 sampai 5 temuan beserta angka pendukungnya. Satu baris satu temuan.
+      placeholder: |
+        1. Jam paling ramai ...
+        2. Akun paling sering ...
+        3. Persentase reshare ...
+    validations:
+      required: true
+  - type: input
+    id: rekaman
+    attributes:
+      label: Tautan rekaman penjelasan 3 menit
+      description: Boleh unggahan YouTube, Google Drive, atau tautan berkas di repositorimu.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pernyataan
+      options:
+        - label: Data dikumpulkan sendiri lewat jalur yang sah (API resmi atau halaman publik)
+          required: true
+        - label: Berkas mentah tidak diubah, semua olahan ada di berkas lain
+          required: true
+        - label: Bagian laporan yang dibantu AI sudah ditulis di laporan
+          required: true
+        - label: Tidak ada data pribadi orang lain (grup tertutup, chat pribadi) di dalam berkas
+          required: true
+</content>
