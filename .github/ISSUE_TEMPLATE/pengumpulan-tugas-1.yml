@@ -57,4 +57,3 @@ body:
       options:
         - label: Data dikumpulkan sendiri dan temuan bisa dibuktikan dari data tersebut
           required: true
-</content>
