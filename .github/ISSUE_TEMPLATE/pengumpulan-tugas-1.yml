@@ -94,4 +94,3 @@ body:
           required: true
         - label: Tidak ada data pribadi orang lain (grup tertutup, chat pribadi) di dalam berkas
           required: true
-</content>
