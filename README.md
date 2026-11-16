@@ -6,14 +6,21 @@ Cara kumulnya sederhana. Mahasiswa membuat repositori sendiri untuk berisi data 
 
 ---
 
+## Cara mengumpulkan
+
+Klik tautan ini, lalu isi formulirnya:
+
+**https://github.com/halimmaulana-pixel/sma-pengumpulan/issues/new?template=pengumpulan-tugas-1.yml**
+
+Berkas data, log, dan rekaman bisa ditarik langsung ke formulir, atau cukup ditempel alamatnya.
+
 ## Langkah mahasiswa
 
 1. Buat akun GitHub kalau belum punya.
 2. Buat repositori baru di akun sendiri, namanya bebas, misalnya `sma-tugas-1-nim`. Pilih **private** kalau isinya memuat nama atau data yang sensitif.
 3. Unggah berkas tugasnya ke repositori itu: berkas data, log, laporan, dan bila ada, video.
-4. Buka repositori ini, pilih **Issues**, lalu **New issue**, dan pilih formulir **Pengumpulan Tugas**.
-5. Isi semua kolom. Tempel tautan repositorimu di kolom yang tersedia.
-6. Kirim. Simpan nomor Issue-nya sebagai bukti.
+4. Buka tautan formulir di atas, lalu isi semua kolom.
+5. Kirim. Simpan nomor Issue-nya sebagai bukti.
 
 ---
 
